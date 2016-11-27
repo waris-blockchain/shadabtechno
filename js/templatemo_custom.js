@@ -63,9 +63,9 @@ jQuery(document).ready(function($){
 	/************** Gallery Hover Effect *********************/
 	$(".overlay").hide();
 
-	$('.gallery-item').hover(
+	$('.gallery-item, .crsl-item').hover(
 	  function() {
-	    $(this).find('.overlay').addClass('animated fadeIn').show();
+            $(this).find('.overlay').addClass('animated fadeIn').show();
 	  },
 	  function() {
 	    $(this).find('.overlay').removeClass('animated fadeIn').hide();
