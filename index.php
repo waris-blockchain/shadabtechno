@@ -68,8 +68,7 @@ $('#contact-form').submit(function() {
 </head>
 <?php
 if(isset($_GET['status']) && !empty($_GET['status'])){
- echo $_GET['status'];
- die;
+ echo '<script>alert("Your Message Has Been Sent !!");</script>';
 }
 ?>
 <body>
