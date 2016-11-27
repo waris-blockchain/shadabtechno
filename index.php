@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <head>
-<title>Shadab Techno Engineering</title>
+<title>Shadaab Techno</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
 <!-- Style Sheets -->
-<link rel="icon" href="images/logo.png">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -34,10 +33,6 @@
 .templatemo_workmargin{
  /* color: #232323 !important;*/
 }
-
-.gallery-item img{ height: 400px; }
-
-.crsl-item a{color: white;}
 </style>
 <!-- JavaScripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -73,8 +68,7 @@ $('#contact-form').submit(function() {
 </head>
 <?php
 if(isset($_GET['status']) && !empty($_GET['status'])){
- echo $_GET['status'];
- die;
+ echo '<script>alert("Your Message Has Been Sent !!");</script>';
 }
 ?>
 <body>
@@ -87,7 +81,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           <div class="templatemo_title"><span>Shadaab Techno Engineering</span></div>
         </div>
         <div class="clear"></div>
-        <div class="templatemo_titlewrappersmall">Conquer</div>
+        <div class="templatemo_titlewrappersmall">Shadaab Techno</div>
         <nav class="navbar navbar-default templatemo_menu" role="navigation">
           <div class="container-fluid"> 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -586,7 +580,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
   <div class="container">
     <div class="row">
      <h1>About Us</h1>
-      <div class="col-md-12 templatemo_workmargin">Suspendisse potenti. Etiam elementum laoreet mauris. Ut rutrum feugiat neque. Suspendisse viverra gravida nulla. Duis sed enim vitae metus nonummy venenatis. Curabitur semper rutrum sapien. Mauris luctus. Aenean elit turpis, volutpat id, facilisis eget, mollis a, est. Nulla eget elit pellentesque enim hendrerit venenatis.</div>
+      <div class="col-md-12 templatemo_workmargin">We have Years of experience in manufacturing of Mechanical Power Press Machinery has given us a leading edge over our competitors. Experienced industrial team members enable us to meet the ever changing demand of Indian as well as international markets. Goodwill that we have earned by Customer Satisfaction in the past years, is the reward for our constant and sincere efforts to deliver our best.</div>
       <h1>Our History</h1>
       <div class="col-md-12 templatemo_workmargin">Based in Indore, MP – India, we commenced our business in the year 1982. Under the profound inspiration of our company’s proprietor, Mr. Abdul Qayyum Ansari, all our team members are dedicated towards completing the commitment and meet targets all the time. With over 30 years of experience in the field of Mechanical Power Press machines manufacturing, our mentor has a rare combination of technical acumen and management skills. He gave wings to his vision by establishing the company in 1982 as the proprietor.
         Starting as a small organization with limited infrastructure and manpower, we have worked our way toward becoming one of the biggest manufacturers of high quality Mechanical Power Press equipments in our home town and thank to Customer Satisfactions.
@@ -598,63 +592,81 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div id="w">
         <div class="crsl-items" data-navigation="navbtns">
           <div class="crsl-wrap">
-            <div class="crsl-item "><img src="images/infra/1.jpg" alt="person 1">
-              <div class="templatemo_team_name">Techno Power Press</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
+            <div class="crsl-item"><img src="images/team/01.jpg" alt="person 1">
+              <div class="templatemo_team_name">Mauris Luctus</div>
+              <div class="templatemo_team_post">CEO</div>
+              <div class="templatemo_social">
+                <ul>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                </ul>
               </div>
             </div>
             <!-- post #1 -->
-            <div class="crsl-item"><img src="images/infra/2.jpg" alt="person 2">
-              <div class="templatemo_team_name">Lawn</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/2.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
+            <div class="crsl-item"><img src="images/team/02.jpg" alt="person 2">
+              <div class="templatemo_team_name">Etiam Massa</div>
+              <div class="templatemo_team_post">Director</div>
+              <div class="templatemo_social">
+                <ul>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                </ul>
               </div>
             </div>
             <!-- post #2 -->
-            <div class="crsl-item"><img src="images/infra/3.jpg" alt="person 3">
-              <div class="templatemo_team_name">Factory</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/3.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
+            <div class="crsl-item"><img src="images/team/03.jpg" alt="person 3">
+              <div class="templatemo_team_name">Mauris Luctus</div>
+              <div class="templatemo_team_post">New Manager</div>
+              <div class="templatemo_social">
+                <ul>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                </ul>
               </div>
             </div>
             <!-- post #3 -->
-            <div class="crsl-item"><img src="images/infra/4.jpg" alt="person 4">
-              <div class="templatemo_team_name">Press Work</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/4.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
+            <div class="crsl-item"><img src="images/team/04.jpg" alt="person 4">
+              <div class="templatemo_team_name">Morbi Pulvinar</div>
+              <div class="templatemo_team_post">Designer</div>
+              <div class="templatemo_social">
+                <ul>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                </ul>
               </div>
             </div>
             <!-- post #4 -->
-            <div class="crsl-item"><img src="images/infra/5.jpg" alt="person 5">
-              <div class="templatemo_team_name">Main Entrance</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/5.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
+            <div class="crsl-item"><img src="images/team/05.jpg" alt="person 5">
+              <div class="templatemo_team_name">Mauris Luctus</div>
+              <div class="templatemo_team_post">Developer</div>
+              <div class="templatemo_social">
+                <ul>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                </ul>
               </div>
             </div>
             <!-- post #5 -->
-            <div class="crsl-item"><img src="images/infra/6.jpg" alt="person 6">
-              <div class="templatemo_team_name">Working</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/6.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
+            <div class="crsl-item"><img src="images/team/06.jpg" alt="person 6">
+              <div class="templatemo_team_name">Mauris Luctus</div>
+              <div class="templatemo_team_post">Technical Staff</div>
+              <div class="templatemo_social">
+                <ul>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                </ul>
               </div>
             </div>
             <!-- post #6 --> 
@@ -819,20 +831,19 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <div class="col-md-12">
             <div class="col-md-6">
               <h4><b>City Head Office</b></h4>
-              <p>4/4, DaulatGanj, Anarbagh, Jawahar Marg, Indore M.P <br>India - 452007</p>
-              <p>Fax: 2365928</p>
-              <p>Tel: 0731-2365228</p>
-              <p>Mobile: +9198269-34446/9</p>
-              <p>Email: shadaabpowerpress@gmail.com</p>            
+              <p>4/4, DaulatGanj, Anarbagh, Jawahar Marg, Indore M.P <br>India - 452007<br>
+              Tel: 0731-2365228</br>
+              Mobile: +9198269-34446/9</br>
+              Email: shadaabpowerpress@gmail.com           
             </div>
           
             <div class="cold-md-6">
                <div class="col-md-6">
                 <h4><b>Industry Office</b></h4>
-                <p>Plot No. 183/A & 184/A Sector-F, Industrial Estate Sanwer Road, Indore M.P<br> India- 452015</p>
-                <p>Fax: 0731-4036653</p>
-                <p>Tel: 0731-2722653</p>
-                <p>Mobile:+91 9826011656, +91 9300737651-4</p>            
+                <p>Plot No. 183/A & 184/A Sector-F, Industrial Estate Sanwer Road, Indore M.P<br> India- 452015</br>
+                Fax: 0731-4036653</br>
+                Tel: 0731-2722653</br>
+                Mobile:+91 9826011656, +91 9300737651-4</br> 
               </div>
             </div>
 
@@ -842,8 +853,10 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       </div>
 
      <div class="row">
-      <h4 style="text-align: center;"><b>Feel Free To Contact</b></h4>
       <div class="col-md-12 test">
+      <div class="col-md-6">
+        <h4><b>Feel Free To Contact</b></h4>
+      </div>
         <form action="mail/send-email.php" method="post" id="contact-form">
           <div class="col-md-9">
             <div class="col-md-4">
