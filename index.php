@@ -40,6 +40,13 @@
 .templatemo_workmargin{
  /* color: #232323 !important;*/
 }
+.logo-1 {
+    float: left;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: -84px;
+    right: 100px;
+    width: 250px
 </style>
 <!-- JavaScripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -130,6 +137,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div class="templatemo_hometitle">Shadaab Power Press</div>
       <div class="templatemo_hometext">Leading manufacturers and exporters of precision engineered
        Mechanical Power Press Machinery.</div>
+       <img draggable="false" src="images/logo1.png" class="logo-1">
       <div class="templatemo_homebutton" style="display: none;"><a href="#">Continue</a></div>
     </div>
   </div>
