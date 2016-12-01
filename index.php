@@ -81,7 +81,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
   <div class="templatemo_topbar">
     <div class="container">
       <div class="row">
-        <div class="templatemo_titlewrapper"><img src="images/templatemo_logobg.png" alt="logo background">
+        <div class="templatemo_titlewrapper"><img src="images/Templatemo_logobg.png" alt="logo background">
           <div class="templatemo_title"><span>Shadaab Techno Engineering</span></div>
         </div>
         <div class="clear"></div>
@@ -141,28 +141,28 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div class="col-md-12 templatemo_marginbot">Leading manufacturers and exporters of precision engineered Mechanical 
               Power Press Machinery, which deliver high performance with High accuracy. Years of experience in manufacturing of Mechanical Power Press Machinery has given us a leading edge over our competitors. Experienced industrial team members enable us to meet the ever changing demand of Indian as well as international markets. Goodwill that we have earned by Customer Satisfaction in the past years, is the reward for our constant and sincere efforts to deliver our best.</div>
       <div class="col-md-3 col-sm-6">
-        <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col" style="background-image: url('images/machine/c-type.jpg');">
+        <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col" style="background-image: url('images/machine/C-type.jpg');">
           <!-- <div class="templatemo_serviceicon"><span class="fa fa-pencil-square-o"></span></div> -->
           <div class="templatemo_service_title">C-Type Press</div>
           <p>Donec euismod, justo sed convallis blandit, ipsum erat mattis lectus, vel pharetra neque enim tristique risus.</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col" style="background-image: url('images/machine/pillar.jpg');">
+        <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col" style="background-image: url('images/machine/Pillar.jpg');">
           <!-- <div class="templatemo_serviceicon"><span class="fa fa-home"></span></div> -->
           <div class="templatemo_service_title">Pillar Type Press</div>
           <p>Conquer is free HTML5 template by <span class="blue">template</span><span class="green">mo</span>. Feel free to download, edit and use this template for any purpose.</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <div class="templatemo_servicebox margin_bottom_1col" style="background-image: url('images/machine/monkey.jpg');">
+        <div class="templatemo_servicebox margin_bottom_1col" style="background-image: url('images/machine/Monkey.jpg');">
           <!-- <div class="templatemo_serviceicon"><span class="fa fa-download"></span></div> -->
           <div class="templatemo_service_title">Monkey Type Press</div>
           <p>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for images used in this template. Curabitur rhoncus felis quis nibh pulvinar.</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <div class="templatemo_servicebox" style="background-image: url('images/machine/incremental.jpeg');">
+        <div class="templatemo_servicebox" style="background-image: url('images/machine/Incremental.jpg');">
           <!-- <div class="templatemo_serviceicon"><span class="fa fa-random"></span></div> -->
           <div class="templatemo_service_title">Special Purposes</div>
           <p>Donec euismod, justo sed convallis blandit, ipsum erat mattis lectus, vel pharetra neque enim tristique risus.</p>
@@ -201,7 +201,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         </div>
       </div>
     </div>
-    <div class="templatemo_workbox">
+    <!--<div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/2.jpg" alt="work 2">
         <div class="overlay">
           <div class="templatemo_worktitle">Project #002</div>
@@ -210,7 +210,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/3.jpg" alt="work 3">
         <div class="overlay">
@@ -382,15 +382,15 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       </tr>
       <tr>
           <td>Hole In Raim for Dia Clamping</td>
-          <td>&#8709 28X50mm</td>
-          <td>&#8709 30X55mm</td>
-          <td>&#8709 32X60mm</td>
-          <td>&#8709 35X80mm</td>
-          <td>&#8709 38X90mm</td>
-          <td>&#8709 40X100mm</td>
-          <td>&#8709 45X100mm</td>
-          <td>&#8709 50X110mm</td>
-          <td>&#8709 60X125mm</td>
+          <td>&#8709 X L 28X50mm</td>
+          <td>&#8709 X L 30X55mm</td>
+          <td>&#8709 X L 32X60mm</td>
+          <td>&#8709 X L 35X80mm</td>
+          <td>&#8709 X L 38X90mm</td>
+          <td>&#8709 X L 40X100mm</td>
+          <td>&#8709 X L 45X100mm</td>
+          <td>&#8709 X L 50X110mm</td>
+          <td>&#8709 X L 60X125mm</td>
         </tr>
           <tr>
             <td>Bore In Bed </td>
@@ -525,15 +525,15 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           </tr>
       <tr>
         <td>Hole In Raim for Dia Clamping</td>
-        <td>&#8709 28X50mm</td>
-        <td>&#8709 30X50mm</td>
-        <td>&#8709 32X60mm</td>
-        <td>&#8709 35X80mm</td>
-        <td>&#8709 38X90mm</td>
-        <td>&#8709 40X100mm</td>
-        <td>&#8709 45X100mm</td>
-        <td>&#8709 50X110mm</td>
-        <td>&#8709 60X125mm</td>
+        <td>&#8709  X  L 28X50mm</td>
+        <td>&#8709  X  L 30X50mm</td>
+        <td>&#8709  X  L 32X60mm</td>
+        <td>&#8709  X  L 35X80mm</td>
+        <td>&#8709  X  L 38X90mm</td>
+        <td>&#8709  X  L 40X100mm</td>
+        <td>&#8709  X  L 45X100mm</td>
+        <td>&#8709  X  L 50X110mm</td>
+        <td>&#8709  X  L 60X125mm</td>
       </tr>
           <tr>
         <td>Bore In Bed </td>
@@ -663,7 +663,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       </div>
       <div class="clear"></div>
       <nav class="slidernav">
-        <div id="navbtns" class="clearfix"><a href="#" class="previous"><img src="images/slideitmoo_back.png" alt="previous"></a> <a href="#" class="next"><img src="images/slideitmoo_forward.png" alt="next"></a></div>
+        <div id="navbtns" class="clearfix"><a href="#" class="previous"><img src="images/Slideitmoo_back.png" alt="previous"></a> <a href="#" class="next"><img src="images/Slideitmoo_forward.png" alt="next"></a></div>
       </nav>
     </div>
     <script>
@@ -810,7 +810,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
   </div>
   <div class="templatemo_contactmap">
-    <div id="templatemo_map"></div>
+  <div id="templatemo_map"></div>
   </div>
   <div class="container templatemo_contactmargin">
     <div class="row">
