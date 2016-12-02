@@ -47,6 +47,12 @@
     margin-top: -84px;
     right: 100px;
     width: 250px
+    border:5px solid;
+  }
+  .active-header{
+    background-color: #8080ff  !important;
+    border-color: #8080ff !important;
+  }
 </style>
 <!-- JavaScripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -153,7 +159,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               Power Press Machinery, which deliver high performance with High accuracy. Years of experience in manufacturing of Mechanical Power Press Machinery has given us a leading edge over our competitors. Experienced industrial team members enable us to meet the ever changing demand of Indian as well as international markets. Goodwill that we have earned by Customer Satisfaction in the past years, is the reward for our constant and sincere efforts to deliver our best.</div>
     </div>
      <div class="row">
-        <a href = "#" class = "list-group-item active">
+        <a href = "#" class = "list-group-item active active-header">
           <b>OUR MERITS ARE MENTIONED BELOW</b>
         </a>
         <a href = "#" class = "list-group-item">Machinery made by Steel Body</a>
@@ -175,11 +181,11 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 <div class="templatemo_workwrapper" id="templatemo_work_page">
   <div class="container">
     <div class="row">
-      <h1>We Manufactures Machines</h1>
+      <h1>We Manufacture Machines</h1>
 
         <div class="row col-md-06">
           <div class="container types">
-            <a href = "#" class = "list-group-item active">
+            <a href = "#" class = "list-group-item active active-header">
               <b>Types of Machines</b>
             </a>
             <a href = "#" class = "list-group-item">C - Type Press</a>
