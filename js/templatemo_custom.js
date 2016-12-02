@@ -94,7 +94,7 @@ jQuery(document).ready(function($){
 function loadScript() {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDpJap9_ree5EfME1vj6Dolk-tGQGpv4-o&callback=initMap"  async defer';
+  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDpJap9_ree5EfME1vj6Dolk-tGQGpv4-o&callback=initialize"  async defer';
   document.body.appendChild(script);
 }
 

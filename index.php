@@ -31,12 +31,22 @@
   width: 100%;
   margin:auto; 
 }
+.types{
+  width: 41%;
+}
 
 .gallery-item img{ height: 400px; }
 
 .templatemo_workmargin{
  /* color: #232323 !important;*/
 }
+.logo-1 {
+    float: left;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: -84px;
+    right: 100px;
+    width: 250px
 </style>
 <!-- JavaScripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -127,6 +137,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div class="templatemo_hometitle">Shadaab Power Press</div>
       <div class="templatemo_hometext">Leading manufacturers and exporters of precision engineered
        Mechanical Power Press Machinery.</div>
+       <img draggable="false" src="images/logo1.png" class="logo-1">
       <div class="templatemo_homebutton" style="display: none;"><a href="#">Continue</a></div>
     </div>
   </div>
@@ -140,35 +151,52 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <h1>Welcome</h1>
       <div class="col-md-12 templatemo_marginbot">Leading manufacturers and exporters of precision engineered Mechanical 
               Power Press Machinery, which deliver high performance with High accuracy. Years of experience in manufacturing of Mechanical Power Press Machinery has given us a leading edge over our competitors. Experienced industrial team members enable us to meet the ever changing demand of Indian as well as international markets. Goodwill that we have earned by Customer Satisfaction in the past years, is the reward for our constant and sincere efforts to deliver our best.</div>
+<!--
       <div class="col-md-3 col-sm-6">
         <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col" style="background-image: url('images/machine/C-type.jpg');">
-          <!-- <div class="templatemo_serviceicon"><span class="fa fa-pencil-square-o"></span></div> -->
+           <div class="templatemo_serviceicon"><span class="fa fa-pencil-square-o"></span></div> 
           <div class="templatemo_service_title">C-Type Press</div>
           <p>Donec euismod, justo sed convallis blandit, ipsum erat mattis lectus, vel pharetra neque enim tristique risus.</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col" style="background-image: url('images/machine/Pillar.jpg');">
-          <!-- <div class="templatemo_serviceicon"><span class="fa fa-home"></span></div> -->
+         <div class="templatemo_serviceicon"><span class="fa fa-home"></span></div> 
           <div class="templatemo_service_title">Pillar Type Press</div>
           <p>Conquer is free HTML5 template by <span class="blue">template</span><span class="green">mo</span>. Feel free to download, edit and use this template for any purpose.</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="templatemo_servicebox margin_bottom_1col" style="background-image: url('images/machine/Monkey.jpg');">
-          <!-- <div class="templatemo_serviceicon"><span class="fa fa-download"></span></div> -->
+           <div class="templatemo_serviceicon"><span class="fa fa-download"></span></div> 
           <div class="templatemo_service_title">Monkey Type Press</div>
           <p>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for images used in this template. Curabitur rhoncus felis quis nibh pulvinar.</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="templatemo_servicebox" style="background-image: url('images/machine/Incremental.jpg');">
-          <!-- <div class="templatemo_serviceicon"><span class="fa fa-random"></span></div> -->
+          <div class="templatemo_serviceicon"><span class="fa fa-random"></span></div> 
           <div class="templatemo_service_title">Special Purposes</div>
           <p>Donec euismod, justo sed convallis blandit, ipsum erat mattis lectus, vel pharetra neque enim tristique risus.</p>
         </div>
       </div>
+-->
     </div>
+     <div class="row">
+        <a href = "#" class = "list-group-item active">
+          <b>OUR MERITS ARE MENTIONED BELOW</b>
+        </a>
+        <a href = "#" class = "list-group-item">Machinery made by Steel Body</a>
+        <a href = "#" class = "list-group-item">Machine Bed-To-Ram settled at 0×0 axis from Dial.Other Industries not provide it</a>
+        <a href = "#" class = "list-group-item">Only Steel Ram in one piece continue shape making in our machinery, Other Industries is not making in Steel in 1 piece.</a>
+        <a href = "#" class = "list-group-item">Free of Cost 24×7 Maintenance Services under Machinery capability accident</a>
+        <a href = "#" class = "list-group-item">Vibration & Noise doesn't generate while operation</a>
+        <a href = "#" class = "list-group-item">Machinery Re-sale price High as compared to other Industries Machinery</a>
+        <a href = "#" class = "list-group-item">Long time services & low Maintenance</a>
+        <a href = "#" class = "list-group-item">Components are made by Skilled labour</a>
+        <a href = "#" class = "list-group-item"><b>Our design and its parts are registered by government</b></a>
+      </div>
+ 
   </div>
 </div>
 <!-- service end -->
@@ -178,6 +206,18 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
   <div class="container">
     <div class="row">
       <h1>We Manufactures Machines</h1>
+
+        <div class="row col-md-06">
+          <div class="container types">
+            <a href = "#" class = "list-group-item active">
+              <b>Types of Machines</b>
+            </a>
+            <a href = "#" class = "list-group-item">C - Type Press</a>
+            <a href = "#" class = "list-group-item">Pillar Type Press</a>
+            <a href = "#" class = "list-group-item">Monkey Type Press</a>
+            <a href = "#" class = "list-group-item">Special Purposes</a>
+          </div>
+        </div>
       <!-- <div class="container">
         <div class="list-group">
             <a href="#" class="list-group-item">C - Type Press</a>
@@ -290,8 +330,10 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
   </div>
 </div>
- -->  <div class="container">
+ -->  
+ <div class="container">
  <h2 style="text-align: center;font: bold;">CAPACITY IN TONS C-TYPE</h2>
+ <div class="table-responsive">
     <table class="table table-striped table-bordered product-table">
     <thead>
       <tr>
@@ -430,6 +472,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         </tr>
     </tbody>
 </table>
+</div>
 </div>
 
 <div class="container">
@@ -586,7 +629,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
      <h1>About Us</h1>
       <div class="col-md-12 templatemo_workmargin">We have Years of experience in manufacturing of Mechanical Power Press Machinery has given us a leading edge over our competitors. Experienced industrial team members enable us to meet the ever changing demand of Indian as well as international markets. Goodwill that we have earned by Customer Satisfaction in the past years, is the reward for our constant and sincere efforts to deliver our best.</div>
       <h1>Our History</h1>
-      <div class="col-md-12 templatemo_workmargin">Based in Indore, MP – India, we commenced our business in the year 1982. Under the profound inspiration of our company’s proprietor, Mr. Abdul Qayyum Ansari, all our team members are dedicated towards completing the commitment and meet targets all the time. With over 30 years of experience in the field of Mechanical Power Press machines manufacturing, our mentor has a rare combination of technical acumen and management skills. He gave wings to his vision by establishing the company in 1982 as the proprietor.
+      <div class="col-md-12 templatemo_workmargin">Based in Indore, MP – India, we commenced our business in the year 1982. Under the profound inspiration of our company’s proprietor, Mr. Abdul Qayyum Ansari, all our team members are dedicated towards completing the commitment and meet targets all the time. With over 34 years of experience in the field of Mechanical Power Press machines manufacturing, our mentor has a rare combination of technical acumen and management skills. He gave wings to his vision by establishing the company in 1982 as the proprietor.
         Starting as a small organization with limited infrastructure and manpower, we have worked our way toward becoming one of the biggest manufacturers of high quality Mechanical Power Press equipments in our home town and thank to Customer Satisfactions.
       </div>
        <h1>Our Infrastructure</h1>
@@ -596,17 +639,19 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div id="w">
         <div class="crsl-items" data-navigation="navbtns">
           <div class="crsl-wrap">
-            <div class="crsl-item "><img src="images/infra/1.jpg" alt="person 1">
-              <div class="templatemo_team_name">Techno Power Press</div>
+            
+            <!-- post #1 -->
+            <div class="crsl-item"><img src="images/infra/5.jpg" alt="person 2">
+              <div class="templatemo_team_name">Main Entrance</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/5.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div>
-            <!-- post #1 -->
-            <div class="crsl-item"><img src="images/infra/2.jpg" alt="person 2">
+            <!-- post #2 -->
+             <div class="crsl-item"><img src="images/infra/2.jpg" alt="person 5">
               <div class="templatemo_team_name">Lawn</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
@@ -615,7 +660,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
                 </div>
               </div>
             </div>
-            <!-- post #2 -->
+     <!-- post #3 -->
             <div class="crsl-item"><img src="images/infra/3.jpg" alt="person 3">
               <div class="templatemo_team_name">Factory</div>
               <div class="templatemo_team_post"></div>
@@ -625,7 +670,17 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
                 </div>
               </div>
             </div>
-            <!-- post #3 -->
+            <!-- post #4 -->
+            <div class="crsl-item "><img src="images/infra/6.jpg" alt="person 1">
+              <div class="templatemo_team_name">Working</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/6.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <!-- post #5 -->
             <div class="crsl-item"><img src="images/infra/4.jpg" alt="person 4">
               <div class="templatemo_team_name">Press Work</div>
               <div class="templatemo_team_post"></div>
@@ -635,28 +690,17 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
                 </div>
               </div>
             </div>
-            <!-- post #4 -->
-            <div class="crsl-item"><img src="images/infra/5.jpg" alt="person 5">
-              <div class="templatemo_team_name">Main Entrance</div>
+            <!-- post #6 -->
+            <div class="crsl-item"><img src="images/infra/1.jpg" alt="person 6">
+              <div class="templatemo_team_name">Techno Power Press</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/5.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
-            </div>
-            <!-- post #5 -->
-            <div class="crsl-item"><img src="images/infra/6.jpg" alt="person 6">
-              <div class="templatemo_team_name">Working</div>
-              <div class="templatemo_team_post"></div>
-              <div class="overlay" style="margin-top: -55%;">
-                <div class="">
-                    <a href="images/infra/6.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
-                </div>
-              </div>
-            </div>
-            <!-- post #6 --> 
-          </div>
+            </div> 
+            
           <!-- @end .crsl-wrap --> 
         </div>
         <!-- @end .crsl-items --> 
@@ -713,6 +757,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 
         <div class="container">
           <h2>Our Clients</h2>
+          <div class="table-responsive">
           <table class="table table-striped table-bordered">
             <tbody>
               <tr>
@@ -776,6 +821,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 
             </tbody>
           </table>
+          </div>
         </div>
 
 
