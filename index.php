@@ -64,6 +64,20 @@
 .templatemo_footerwrapper{
   margin-bottom: -52px !important;
 }
+.templatemo_titlewrappersmall{
+font-size: 17px !important;
+}
+/*#bs-example-navbar-collapse-1{
+  background-color: #8080ff !important;
+}*/
+/*.templatemo_topbar .navbar-default .navbar-nav > li > a{
+  border-bottom:1px solid #8080ff !important;
+}*/
+
+/*.templatemo_topbar .navbar-default .navbar-nav li :hover{
+color: #8080ff !important;
+background-color: white !important;
+}*/
 </style>
 <!-- JavaScripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -112,7 +126,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           <div class="templatemo_title"><span>Shadaab Techno Engineering</span></div>
         </div>
         <div class="clear"></div>
-        <div class="templatemo_titlewrappersmall">Shadaab Techno</div>
+        <div class="templatemo_titlewrappersmall">Shadaab Techno Engineering</div>
         <nav class="navbar navbar-default templatemo_menu" role="navigation">
           <div class="container-fluid"> 
             <!-- Brand and toggle get grouped for better mobile display -->

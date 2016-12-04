@@ -27,8 +27,8 @@ h1{width:100%; font-size:36px; color:#747474; text-align:center;}
 .templatemo_topbar .navbar-nav{float:none; margin:0 auto;}
 .templatemo_topbar .navbar-default .navbar-nav>li>a{color:#ffffff;}
 .templatemo_topbar .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#ececec;}
-#top-menu li.active a{background:#8080ff; opacity:0.8; color:#FF6;}
-#top-menu a:hover{background:#8080ff; opacity:0.8; color:#FF6;}
+#top-menu li.active a{background:#8080ff; opacity:0.8; color:#FFFFFF;}
+#top-menu a:hover{background:#8080ff; opacity:0.8; color:#FFFFFF;}
 .navbar-collapse{box-shadow:none;}
 
 .templatemo_homewrapper{}
@@ -106,12 +106,16 @@ Media Queries
 @media (max-width:767px){
 	.templatemo_titlewrapper{display:none;}
 	.templatemo_titlewrappersmall{float:left; font-size:28px; color:#ffffff; line-height:50px; margin-left:20px;}
-	.templatemo_topbar .container-fluid>.navbar-collapse{background:#ca482a; opacity:0.9; border:none;}
-	.templatemo_topbar .navbar-default .navbar-nav>li>a{font-size:14px; padding:10px 10px; border-bottom:1px solid #e46142;}
+	.templatemo_topbar .container-fluid>.navbar-collapse{background:#8080ff; opacity:0.9; border:none;}
+	.templatemo_topbar .navbar-default .navbar-nav>li>a{font-size:14px; padding:10px 10px; border-bottom:1px solid #8080ff;}
 	.margin_bottom_1col{margin-bottom:20px;}
 	.margin_bottom_2col{margin-bottom:0;}
-	#top-menu{background:#ca482a; margin:0 -15px; opacity:0.9;}
+	#top-menu{background:#8080ff; margin:0 -15px; opacity:0.9;}
 	.templatemo_topbar .navbar-default .navbar-toggle .icon-bar{background-color:#ffffff;}
+	.templatemo_topbar .navbar-default .navbar-nav li :hover{
+		color: #8080ff !important;
+		background-color:white !important; 
+	}
 	}
 
 @media (max-width:991px){
