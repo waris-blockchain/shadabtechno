@@ -23,9 +23,8 @@
 
 .templatemo_title
 {
-  font-family: Times New Roman,Times,serif !important;
-  font-weight: bold !important;
-  font-style: italic !important;
+  font-family: johnny fever,Times,serif !important;
+  
 }
 .product-table{
   width: 100%;
@@ -370,7 +369,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </thead>
     <tbody>
       <tr>
-        <td>Stroke adjustable</td>
+        <th>Stroke adjustable</th>
         <td>00-40mm</td>
         <td>00-50mm</td>
         <td>00-60mm</td>
@@ -382,7 +381,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>25-175mm</td>
       </tr>
          <tr>
-        <td>Distence Bed To Raim</td>
+        <th>Distance Bed To Raim</th>
         <td>200mm</td>
         <td>230mm</td>
         <td>255mm</td>
@@ -394,7 +393,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>650mm</td>
         </tr>
          <tr>
-        <td>BedSize </td>
+        <th>BedSize </th>
         <td>300X460mm</td>
         <td>350X550mm</td>
         <td>400X560mm</td>
@@ -406,7 +405,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>800X1050mm</td>
       </tr>
       <tr>
-        <td>Crankshaft Dia</td>
+        <th>Crankshaft Dia</th>
         <td>80mm</td>
         <td>85mm</td>
         <td>93mm</td>
@@ -418,7 +417,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>200mm</td>      
       </tr>
         <tr>
-        <td>Steel Gear Dia</td>
+        <th>Steel Gear Dia</th>
         <td>350mm</td>
         <td>450mm</td>
         <td>500mm</td>
@@ -430,7 +429,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>1200mm</td>
       </tr>
           <tr>
-        <td>FlyWeel Dia </td>
+        <th>FlyWeel Dia </th>
         <td>600mm</td>
         <td>650mm</td>
         <td>700mm</td>
@@ -442,7 +441,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>1250mm</td>
       </tr>
       <tr>
-          <td>Hole In Raim for Dia Clamping</td>
+          <th>Hole In Raim for Dia Clamping</th>
           <td>&#8709 X L 28X50mm</td>
           <td>&#8709 X L 30X55mm</td>
           <td>&#8709 X L 32X60mm</td>
@@ -454,7 +453,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           <td>&#8709 X L 60X125mm</td>
         </tr>
           <tr>
-            <td>Bore In Bed </td>
+            <th>Bore In Bed </th>
             <td>100mm</td>
             <td>105mm</td>
             <td>115mm</td>
@@ -466,7 +465,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             <td>225mm</td>
           </tr>
           <tr>
-            <td>Power Required </td>
+            <th>Power Required </th>
             <td>1HP</td>
             <td>2HP</td>
             <td>3HP</td>
@@ -478,7 +477,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             <td>15HP</td>
         </tr>
           <tr>
-            <td>R.P.M Required </td>
+            <th>R.P.M Required </th>
             <td>1440</td>
             <td>1440</td>
             <td>1440</td>
@@ -514,7 +513,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </thead>
     <tbody>
       <tr>
-        <td>Stroke adjustable</td>
+        <th>Stroke adjustable</th>
         <td>01-40mm</td>
         <td>00-50mm</td>
         <td>00-65mm</td>
@@ -526,7 +525,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>25-175mm</td>
       </tr>
          <tr>
-        <td>Distence Bed To Raim</td>
+        <th>Distance Bed To Raim</ts>
         <td>200mm</td>
         <td>230mm</td>
         <td>250mm</td>
@@ -538,7 +537,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>650mm</td>
         </tr>
          <tr>
-        <td>BedSize LR X FB</td>
+        <th>BedSize LR X FB</th>
         <td>300X300mm</td>
         <td>350X350mm</td>
         <td>400X400mm</td>
@@ -550,7 +549,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>1000X900mm</td>
       </tr>
       <tr>
-        <td>Crankshaft Dia</td>
+        <th>Crankshaft Dia</th>
         <td>80mm</td>
         <td>85mm</td>
         <td>93mm</td>
@@ -562,7 +561,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>200mm</td>      
       </tr>
         <tr>
-        <td>Steel Gear Dia</td>
+        <th>Steel Gear Dia</th>
         <td>350mm</td>
         <td>450mm</td>
         <td>500mm</td>
@@ -574,7 +573,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>1200mm</td>
       </tr>
           <tr>
-            <td>FlyWeel Dia </td>
+            <th>FlyWeel Dia </th>
             <td>600mm</td>
             <td>650mm</td>
             <td>700mm</td>
@@ -586,7 +585,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             <td>1250mm</td>
           </tr>
       <tr>
-        <td>Hole In Raim for Dia Clamping</td>
+        <th>Hole In Raim for Dia Clamping</th>
         <td>&#8709  X  L 28X50mm</td>
         <td>&#8709  X  L 30X50mm</td>
         <td>&#8709  X  L 32X60mm</td>
@@ -598,7 +597,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>&#8709  X  L 60X125mm</td>
       </tr>
           <tr>
-        <td>Bore In Bed </td>
+        <th>Bore In Bed </th>
         <td>90mm</td>
         <td>100mm</td>
         <td>110mm</td>
@@ -610,7 +609,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>225mm</td>
       </tr>
           <tr>
-        <td>Power Required </td>
+        <th>Power Required </th>
         <td>1HP</td>
         <td>2HP</td>
         <td>3HP</td>
@@ -622,7 +621,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <td>15HP</td>
       </tr>
           <tr>
-        <td>R.P.M Required </td>
+        <th>R.P.M Required </th>
         <td>1400</td>
         <td>1400</td>
         <td>1400</td>
@@ -648,7 +647,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
      <h1>About Us</h1>
       <div class="col-md-12 templatemo_workmargin">We have Years of experience in manufacturing of Mechanical Power Press Machinery has given us a leading edge over our competitors. Experienced industrial team members enable us to meet the ever changing demand of Indian as well as international markets. Goodwill that we have earned by Customer Satisfaction in the past years, is the reward for our constant and sincere efforts to deliver our best.</div>
       <h1>Our History</h1>
-      <div class="col-md-12 templatemo_workmargin">Based in Indore, MP – India, we commenced our business in the year 1982. Under the profound inspiration of our company’s proprietor, Mr. Abdul Qayyum Ansari, all our team members are dedicated towards completing the commitment and meet targets all the time. With over 34 years of experience in the field of Mechanical Power Press machines manufacturing, our mentor has a rare combination of technical acumen and management skills. He gave wings to his vision by establishing the company in 1982 as the proprietor.
+      <div class="col-md-12 templatemo_workmargin">Based in Indore, MP – India, we commenced our business in the year 1982. Under the profound inspiration of our company’s proprietor,<b> Mr. Abdul Qayyum Ansari</b>, all our team members are dedicated towards completing the commitment and meet targets all the time. With over<b> 34 years </b>of experience in the field of Mechanical Power Press machines manufacturing, our mentor has a rare combination of technical acumen and management skills. He gave wings to his vision by establishing the company in 1982 as the proprietor.
         Starting as a small organization with limited infrastructure and manpower, we have worked our way toward becoming one of the biggest manufacturers of high quality Mechanical Power Press equipments in our home town and thank to Customer Satisfactions.
       </div>
        <h1>Our Infrastructure</h1>
