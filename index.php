@@ -39,76 +39,84 @@
 .templatemo_workmargin{
  /* color: #232323 !important;*/
 }
-.logo-1 {
+
+.logo-1, .logo-2 {
     float: left;
-    height: 250px;
-    margin-left: 40px;
-    margin-top: -128px;
+    width: 15%;
+    height: 150px;
+    margin: -128px 00px 0px 100px;
     right: 100px;
-    width: 250px
-    border:5px solid;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
   }
   .active-header{
     background-color: #8080ff  !important;
     border-color: #8080ff !important;
   }
+  
   .logo-2 {
     float: right;
-    height: 250px;
-    margin-bottom: 20px;
-    margin-right: 50px;
     position: relative;
-   top: -128px;
-   width: 250px
 }
 .templatemo_footerwrapper{
   margin-bottom: -52px !important;
 }
+
 .templatemo_titlewrappersmall{
 font-size: 17px !important;
 }
-/*#bs-example-navbar-collapse-1{
-  background-color: #8080ff !important;
-}*/
-/*.templatemo_topbar .navbar-default .navbar-nav > li > a{
-  border-bottom:1px solid #8080ff !important;
-}*/
 
-/*.templatemo_topbar .navbar-default .navbar-nav li :hover{
-color: #8080ff !important;
-background-color: white !important;
-}*/
+.copyright
+{
+    float: left;
+    margin-top: -9%;
+    margin-left: -1.7%;
+    z-index: 10000;
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+.templatemo_title .copyright
+{
+    float: none;
+    margin: -7% 0px 0px 49%;
+    font-family: sans-serif;
+}
+
 </style>
 <!-- JavaScripts -->
+
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap-dropdown.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCWllzCRmxht6RX3XzNrhe7zd9DGS1Zr0U"></script>
 <script src="js/bootstrap-collapse.js"></script>
 <script src="js/bootstrap-tab.js"></script>
 <script src="js/jquery.singlePageNav.js"></script>
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/jquery.lightbox.js"></script>
+
 <script src="js/templatemo_custom.js"></script>
 <script src="js/responsiveCarousel.min.js"></script>
 
 <script>
-  
-  $(document).ready(function(){
+    $(document).ready(function(){
 
-
-$('#contact-form').submit(function() {
-    var email = $('#email').val();
-    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    var status = re.test(email);
-    if(status){
-      return true;
-    }else{
-      alert('Please Enter Valid Email Address');
-      return false;
-    }
-    // return false to cancel form action
+    $('#contact-form').submit(function() {
+        var email = $('#email').val();
+        var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        var status = re.test(email);
+        if(status){
+          return true;
+        }else{
+          alert('Please Enter Valid Email Address');
+          return false;
+        }
+        // return false to cancel form action
+    });
 });
-  });
 </script>
 </head>
 <?php
@@ -123,7 +131,11 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="container">
       <div class="row">
         <div class="templatemo_titlewrapper"><img src="images/templatemo_logobg.png" alt="logo background">
-          <div class="templatemo_title"><span>Shadaab Techno Engineering</span></div>
+          <div class="templatemo_title">
+                <span>Shadaab Techno Engineering
+                    <span class="copyright">&reg;</span>
+                </span>
+          </div>
         </div>
         <div class="clear"></div>
         <div class="templatemo_titlewrappersmall">Shadaab Techno Engineering</div>
@@ -169,6 +181,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div class="templatemo_hometext">Leading manufacturers and exporters of precision engineered<br>
        Mechanical Power Press Machinery.</div>
        <img draggable="false" src="images/logo1.png" class="logo-1">
+       <span class="copyright">&reg;</span>
        <img draggable="false" src="images/logo2.jpg" class="logo-2">
       <div class="templatemo_homebutton" style="display: none;"><a href="#">Continue</a></div>
     </div>
@@ -953,9 +966,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
   </div>
   <div class="templatemo_contactmap">
-  <div id="templatemo_map">
-    
-  </div>
+  <div id="templatemo_map"></div>
   </div>
   <div class="container templatemo_contactmargin">
     <div class="row">
