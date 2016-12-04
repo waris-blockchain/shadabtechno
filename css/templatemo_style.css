@@ -53,11 +53,11 @@ h1{width:100%; font-size:36px; color:#747474; text-align:center;}
 .templatemo_workdes{color:#ffffff; margin-top:10px;}
 .templatemo_worklink{padding:25px; font-size:30px; background:#8080ff; display:inline-block; border-radius:3px; text-align:center; margin-top:10px;}
 
-.templatemo_team_wrapper{width:100%; padding:70px 0 50px 0; text-align:center;}
+.templatemo_team_wrapper{width:100%; padding:10px 0 50px 0; text-align:center;}
 .templatemo_team_name{font-size:16px; color:#8080ff; margin-top:10px;}
 .templatemo_team_post{font-size:14px;}
 
-.templatemo_contactwrapper{padding:100px 0 30px 0;}
+.templatemo_contactwrapper{padding:20px 0 30px 0;}
 #templatemo_map{height:250px; width:100%; margin-top:20px;}
 .templatemo_contactmargin{margin-top:30px;}
 .templatemo_address_title{float:left; width:100%; margin:0 0 20px 0;}

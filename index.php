@@ -359,12 +359,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
   </div>
 </div>
 
-
-
 <div class="clear"></div>
- 
- <div class="clear"></div>
-  <!-- <div class="table-responsive"> -->
+<!-- <div class="table-responsive"> -->
 
 <!--   <div class="container">
   <div class="row">
@@ -837,34 +833,10 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 </div>
 <!-- team end -->
 <div class="clear"></div>
-
-<div class="clear"></div>
 <!-- team start -->
 <div class="templatemo_team_wrapper" id="templatemo_client_page">
   <div class="container">
     <div class="row">
-     <!-- <h1>Our Clients</h1>
-          <div class="container">
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-success">Hi-Tech Metal Forming Pvt. Ltd. - Pune</a>
-                <a href="#" class="list-group-item">Jindal Iron Steel Co. Ltd. - Mumbai</a>
-                <a href="#" class="list-group-item list-group-item-success">AARCO Steel Industries - Mumbai</a>
-                <a href="#" class="list-group-item">Jamnadas Industries - Dahod, Gujrat</a>
-                <a href="#" class="list-group-item list-group-item-success">Gujrat Motor Spring Work - Gujrat</a>
-                <a href="#" class="list-group-item">MantreLohaUgyogKendre - Fateh Nagar, Rajasthan</a>
-                <a href="#" class="list-group-item list-group-item-success">Agrawal Steel Furniture - Agra</a>
-                <a href="#" class="list-group-item">Kinetic Motors Company - Pithampur</a>
-                <a href="#" class="list-group-item list-group-item-success">Shakti Pump INDIA Ltd. - Pithampur</a>
-                <a href="#" class="list-group-item">MAN Industries (SHARJA U.A.E) - DUBAI</a>
-                <a href="#" class="list-group-item list-group-item-success">GALAXY Components Pvt. Ltd. - Pithampur</a>
-                <a href="#" class="list-group-item">EMECAM Industries - Colombo, Sri-Lanka</a>
-                <a href="#" class="list-group-item list-group-item-success">Khandelwal Industries - Shivpuri</a>
-                <a href="#" class="list-group-item">Alka-Claim & Fabricator's - Korba</a>
-                <a href="#" class="list-group-item list-group-item-success">SABA L.P.G cylinder manufacturing Co. Pvt. Ltd. - Mansour</a>
-            </div>
-          </div>
-      <div class="clear"></div> -->
-
         <div class="container">
           <h2>Our Clients</h2>
           <div class="table-responsive">
