@@ -62,6 +62,24 @@
 .templatemo_footerwrapper{
   margin-bottom: -52px !important;
 }
+
+.copyright
+{
+    float: left;
+    margin-top: -9%;
+    margin-left: -1.7%;
+    z-index: 10000;
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+.templatemo_title .copyright
+{
+    float: none;
+    margin: -7% 0px 0px 49%;
+    font-family: sans-serif;
+}
 </style>
 <!-- JavaScripts -->
 
@@ -79,23 +97,21 @@
 <script src="js/responsiveCarousel.min.js"></script>
 
 <script>
-  
-  $(document).ready(function(){
+    $(document).ready(function(){
 
-
-$('#contact-form').submit(function() {
-    var email = $('#email').val();
-    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    var status = re.test(email);
-    if(status){
-      return true;
-    }else{
-      alert('Please Enter Valid Email Address');
-      return false;
-    }
-    // return false to cancel form action
+    $('#contact-form').submit(function() {
+        var email = $('#email').val();
+        var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        var status = re.test(email);
+        if(status){
+          return true;
+        }else{
+          alert('Please Enter Valid Email Address');
+          return false;
+        }
+        // return false to cancel form action
+    });
 });
-  });
 </script>
 </head>
 <?php
@@ -110,7 +126,11 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="container">
       <div class="row">
         <div class="templatemo_titlewrapper"><img src="images/templatemo_logobg.png" alt="logo background">
-          <div class="templatemo_title"><span>Shadaab Techno Engineering</span></div>
+          <div class="templatemo_title">
+                <span>Shadaab Techno Engineering
+                    <span class="copyright">&reg;</span>
+                </span>
+          </div>
         </div>
         <div class="clear"></div>
         <div class="templatemo_titlewrappersmall">Shadaab Techno</div>
@@ -156,6 +176,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       <div class="templatemo_hometext">Leading manufacturers and exporters of precision engineered<br>
        Mechanical Power Press Machinery.</div>
        <img draggable="false" src="images/logo1.png" class="logo-1">
+       <span class="copyright">&reg;</span>
        <img draggable="false" src="images/logo2.jpg" class="logo-2">
       <div class="templatemo_homebutton" style="display: none;"><a href="#">Continue</a></div>
     </div>
