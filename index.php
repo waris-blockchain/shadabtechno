@@ -44,7 +44,7 @@
     float: left;
     height: 250px;
     margin-left: 40px;
-    margin-top: -84px;
+    margin-top: -128px;
     right: 100px;
     width: 250px
     border:5px solid;
@@ -53,6 +53,18 @@
     background-color: #8080ff  !important;
     border-color: #8080ff !important;
   }
+  .logo-2 {
+    float: right;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    position: relative;
+   top: -128px;
+   width: 250px
+}
+.templatemo_footerwrapper{
+  margin-bottom: -52px !important;
+}
 </style>
 <!-- JavaScripts -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -97,7 +109,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
   <div class="templatemo_topbar">
     <div class="container">
       <div class="row">
-        <div class="templatemo_titlewrapper"><img src="images/Templatemo_logobg.png" alt="logo background">
+        <div class="templatemo_titlewrapper"><img src="images/templatemo_logobg.png" alt="logo background">
           <div class="templatemo_title"><span>Shadaab Techno Engineering</span></div>
         </div>
         <div class="clear"></div>
@@ -139,11 +151,12 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
   </div>
   <div class="slider-caption">
-    <div class="templatemo_homewrapper">
+    <div class="templatemo_homewrappersmall">
       <div class="templatemo_hometitle">Shadaab Power Press</div>
-      <div class="templatemo_hometext">Leading manufacturers and exporters of precision engineered
+      <div class="templatemo_hometext">Leading manufacturers and exporters of precision engineered<br>
        Mechanical Power Press Machinery.</div>
        <img draggable="false" src="images/logo1.png" class="logo-1">
+       <img draggable="false" src="images/logo2.jpg" class="logo-2">
       <div class="templatemo_homebutton" style="display: none;"><a href="#">Continue</a></div>
     </div>
   </div>
@@ -647,7 +660,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           <div class="crsl-wrap">
             
             <!-- post #1 -->
-            <div class="crsl-item"><img src="images/infra/5.jpg" alt="person 2">
+            <div class="crsl-item"><img src="images/infra/1.jpg" alt="person 2">
               <div class="templatemo_team_name">Main Entrance</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
@@ -668,7 +681,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             </div>
      <!-- post #3 -->
             <div class="crsl-item"><img src="images/infra/3.jpg" alt="person 3">
-              <div class="templatemo_team_name">Factory</div>
+              <div class="templatemo_team_name">Work Place</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -677,7 +690,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               </div>
             </div>
             <!-- post #4 -->
-            <div class="crsl-item "><img src="images/infra/6.jpg" alt="person 1">
+            <div class="crsl-item "><img src="images/infra/4.jpg" alt="person 1">
               <div class="templatemo_team_name">Working</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
@@ -687,8 +700,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               </div>
             </div>
             <!-- post #5 -->
-            <div class="crsl-item"><img src="images/infra/4.jpg" alt="person 4">
-              <div class="templatemo_team_name">Press Work</div>
+            <div class="crsl-item"><img src="images/infra/3old.jpg" alt="person 4">
+              <div class="templatemo_team_name">Work Place</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -697,8 +710,18 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               </div>
             </div>
             <!-- post #6 -->
-            <div class="crsl-item"><img src="images/infra/1.jpg" alt="person 6">
-              <div class="templatemo_team_name">Techno Power Press</div>
+            <div class="crsl-item"><img src="images/infra/6.jpg" alt="person 6">
+              <div class="templatemo_team_name">Working</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <!-- image 7 -->
+               <div class="crsl-item"><img src="images/infra/7.jpg" alt="person 6">
+              <div class="templatemo_team_name">Working</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -706,7 +729,62 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
                 </div>
               </div>
             </div> 
-            
+
+             <!-- image 8 -->
+               <div class="crsl-item"><img src="images/infra/8.jpg" alt="person 6">
+              <div class="templatemo_team_name">Working</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div> 
+
+             <!-- image 9 -->
+               <div class="crsl-item"><img src="images/infra/9.jpg" alt="person 6">
+              <div class="templatemo_team_name">Working</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div> 
+
+             <!-- image 10 -->
+               <div class="crsl-item"><img src="images/infra/10.jpg" alt="person 6">
+              <div class="templatemo_team_name">Machine</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div> 
+
+             <!-- image 11 -->
+               <div class="crsl-item"><img src="images/infra/11.jpg" alt="person 6">
+              <div class="templatemo_team_name">Exit</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div> 
+
+             <!-- image 12 -->
+               <div class="crsl-item"><img src="images/infra/12.jpg" alt="person 6">
+              <div class="templatemo_team_name">Thanks for coming...</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div> 
+
           <!-- @end .crsl-wrap --> 
         </div>
         <!-- @end .crsl-items --> 
@@ -862,7 +940,9 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
   </div>
   <div class="templatemo_contactmap">
-  <div id="templatemo_map"></div>
+  <div id="templatemo_map">
+    
+  </div>
   </div>
   <div class="container templatemo_contactmargin">
     <div class="row">
@@ -870,8 +950,10 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             <div class="col-md-6">
               <h4><b>City Head Office</b></h4>
               <p>4/4, DaulatGanj, Anarbagh, Jawahar Marg, Indore M.P <br>India - 452007<br>
+              Fax: 2365928</br>
               Tel: 0731-2365228</br>
-              Mobile: +9198269-34446/9</br>
+              Mobile: +9198269-34446/9,</br>
+              +91 9826011656, +91 9300737651-4</br> 
               Email: shadaabpowerpress@gmail.com           
             </div>
           
@@ -879,9 +961,11 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
                <div class="col-md-6">
                 <h4><b>Industry Office</b></h4>
                 <p>Plot No. 183/A & 184/A Sector-F, Industrial Estate Sanwer Road, Indore M.P<br> India- 452015</br>
-                Fax: 0731-4036653</br>
+                Fax: 4036653</br>
                 Tel: 0731-2722653</br>
                 Mobile:+91 9826011656, +91 9300737651-4</br> 
+                +9198269-34446/9</br>
+                Email: technopowerpress@gmail.com
               </div>
             </div>
 
@@ -892,10 +976,14 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 
      <div class="row">
       <div class="col-md-12 test">
-      <div class="col-md-6">
-        <h4><b>Feel Free To Contact</b></h4>
+      <div class="container">
+        <div class="row">
+          <h4><b>Feel Free To Contact</b></h4>
+        </div>
       </div>
-        <form action="mail/send-email.php" method="post" id="contact-form">
+      <div class="container">
+        <div class="row" style="float: right !important">
+          <form action="mail/send-email.php" method="post" id="contact-form">
           <div class="col-md-9">
             <div class="col-md-4">
               <input type="text" name="name" id="name" class="name" placeholder="Your Name" required>
@@ -913,7 +1001,9 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <input type="submit" name="send" value="Send Message" class="button templatemo_sendbtn">
             </div>
           </div>
-        </form>
+          </form>
+        </div>
+      </div>
       </div>
      </div>
 
