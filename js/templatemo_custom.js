@@ -84,7 +84,7 @@ jQuery(document).ready(function($){
     });
 });
 
-var myCenter=new google.maps.LatLng(22.9904101,75.834013);
+var myCenter=new google.maps.LatLng(22.9904865,75.8340966);
 
 function initialize()
 {

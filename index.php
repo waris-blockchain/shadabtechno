@@ -267,28 +267,19 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/1.jpg" alt="work 1">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #001</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #1</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
       </div>
     </div>
-    <!--<div class="templatemo_workbox">
-      <div class="gallery-item"><img src="images/work/2.jpg" alt="work 2">
-        <div class="overlay">
-          <div class="templatemo_worktitle">Project #002</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
-          <div class="templatemo_worklink"><a href="images/work/2.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
-          <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
-        </div>
-      </div>
-    </div>-->
+    
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/3.jpg" alt="work 3">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #003</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #2</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/3.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
@@ -297,8 +288,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/4.jpg" alt="work 4">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #004</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #3</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/4.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
@@ -307,8 +298,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/5.jpg" alt="work 5">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #005</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #4</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/5.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
@@ -317,8 +308,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/6.jpg" alt="work 6">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #006</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #5</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/6.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
@@ -327,8 +318,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/7.jpg" alt="work 7">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #007</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #6</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/7.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
@@ -337,9 +328,19 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     <div class="templatemo_workbox">
       <div class="gallery-item"><img src="images/work/8.jpg" alt="work 8">
         <div class="overlay">
-          <div class="templatemo_worktitle">Project #008</div>
-          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worktitle">Machine #7</div>
+          <div class="templatemo_workdes"></div>
           <div class="templatemo_worklink"><a href="images/work/8.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
+        </div>
+      </div>
+    </div>
+ <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/work/sdf.jpg" alt="work 8">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Machine #8</div>
+          <div class="templatemo_workdes"></div>
+          <div class="templatemo_worklink"><a href="images/work/sdf.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
       </div>
@@ -347,12 +348,8 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
   </div>
 </div>
 
-
-
 <div class="clear"></div>
- 
- <div class="clear"></div>
-  <!-- <div class="table-responsive"> -->
+<!-- <div class="table-responsive"> -->
 
 <!--   <div class="container">
   <div class="row">
@@ -825,34 +822,10 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 </div>
 <!-- team end -->
 <div class="clear"></div>
-
-<div class="clear"></div>
 <!-- team start -->
 <div class="templatemo_team_wrapper" id="templatemo_client_page">
   <div class="container">
     <div class="row">
-     <!-- <h1>Our Clients</h1>
-          <div class="container">
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-success">Hi-Tech Metal Forming Pvt. Ltd. - Pune</a>
-                <a href="#" class="list-group-item">Jindal Iron Steel Co. Ltd. - Mumbai</a>
-                <a href="#" class="list-group-item list-group-item-success">AARCO Steel Industries - Mumbai</a>
-                <a href="#" class="list-group-item">Jamnadas Industries - Dahod, Gujrat</a>
-                <a href="#" class="list-group-item list-group-item-success">Gujrat Motor Spring Work - Gujrat</a>
-                <a href="#" class="list-group-item">MantreLohaUgyogKendre - Fateh Nagar, Rajasthan</a>
-                <a href="#" class="list-group-item list-group-item-success">Agrawal Steel Furniture - Agra</a>
-                <a href="#" class="list-group-item">Kinetic Motors Company - Pithampur</a>
-                <a href="#" class="list-group-item list-group-item-success">Shakti Pump INDIA Ltd. - Pithampur</a>
-                <a href="#" class="list-group-item">MAN Industries (SHARJA U.A.E) - DUBAI</a>
-                <a href="#" class="list-group-item list-group-item-success">GALAXY Components Pvt. Ltd. - Pithampur</a>
-                <a href="#" class="list-group-item">EMECAM Industries - Colombo, Sri-Lanka</a>
-                <a href="#" class="list-group-item list-group-item-success">Khandelwal Industries - Shivpuri</a>
-                <a href="#" class="list-group-item">Alka-Claim & Fabricator's - Korba</a>
-                <a href="#" class="list-group-item list-group-item-success">SABA L.P.G cylinder manufacturing Co. Pvt. Ltd. - Mansour</a>
-            </div>
-          </div>
-      <div class="clear"></div> -->
-
         <div class="container">
           <h2>Our Clients</h2>
           <div class="table-responsive">
