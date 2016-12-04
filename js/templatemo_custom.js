@@ -58,8 +58,6 @@ jQuery(document).ready(function($){
 		return false;
 	});
 
-	loadScript();
-
 	/************** Gallery Hover Effect *********************/
 	$(".overlay").hide();
 
@@ -73,37 +71,32 @@ jQuery(document).ready(function($){
 	);
 
 
-	/************** LightBox *********************/
-	$(function(){
-		$('[data-rel="lightbox"]').lightbox();
-	});
-
-
-	$("a.menu-toggle-btn").click(function() {
-	  $(".responsive_menu").stop(true,true).slideToggle();
-	  return false;
-	});
+    /************** LightBox *********************/
+    //$('[data-rel="lightbox"]').lightbox();
+    
+    $("a.menu-toggle-btn").click(function() {
+        $(".responsive_menu").stop(true,true).slideToggle();
+        return false;
+    });
  
     $(".responsive_menu a").click(function(){
-		$('.responsive_menu').hide();
-	});
-
+        $('.responsive_menu').hide();
+    });
 });
 
+var myCenter=new google.maps.LatLng(22.9904101,75.834013);
 
-function loadScript() {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDpJap9_ree5EfME1vj6Dolk-tGQGpv4-o&callback=initialize"  async defer';
-  document.body.appendChild(script);
+function initialize()
+{
+    var mapProp = {
+        center:myCenter,
+        zoom:14,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+
+    var map=new google.maps.Map(document.getElementById("templatemo_map"),mapProp);
+    var marker=new google.maps.Marker({position:myCenter});
+    marker.setMap(map);
 }
 
-function initialize() {
-    var mapOptions = {
-	center: new google.maps.LatLng(40.7828839,-73.9652425),
-	zoom: 15,
-	scrollwheel: false,
-	mapTypeId: google.maps.MapTypeId.ROADMAP
-	};
-    var map = new google.maps.Map(document.getElementById('map'),  mapOptions);
-}
+google.maps.event.addDomListener(window, 'load', initialize);

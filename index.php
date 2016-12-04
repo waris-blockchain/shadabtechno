@@ -40,41 +40,42 @@
 .templatemo_workmargin{
  /* color: #232323 !important;*/
 }
-.logo-1 {
+
+.logo-1, .logo-2 {
     float: left;
-    height: 250px;
-    margin-left: 40px;
-    margin-top: -128px;
+    width: 15%;
+    height: 150px;
+    margin: -128px 00px 0px 100px;
     right: 100px;
-    width: 250px
-    border:5px solid;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
   }
   .active-header{
     background-color: #8080ff  !important;
     border-color: #8080ff !important;
   }
+  
   .logo-2 {
     float: right;
-    height: 250px;
-    margin-bottom: 20px;
-    margin-right: 50px;
     position: relative;
-   top: -128px;
-   width: 250px
 }
 .templatemo_footerwrapper{
   margin-bottom: -52px !important;
 }
 </style>
 <!-- JavaScripts -->
+
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap-dropdown.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCWllzCRmxht6RX3XzNrhe7zd9DGS1Zr0U"></script>
 <script src="js/bootstrap-collapse.js"></script>
 <script src="js/bootstrap-tab.js"></script>
 <script src="js/jquery.singlePageNav.js"></script>
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/jquery.lightbox.js"></script>
+
 <script src="js/templatemo_custom.js"></script>
 <script src="js/responsiveCarousel.min.js"></script>
 
@@ -940,9 +941,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
   </div>
   <div class="templatemo_contactmap">
-  <div id="templatemo_map">
-    
-  </div>
+  <div id="templatemo_map"></div>
   </div>
   <div class="container templatemo_contactmargin">
     <div class="row">
