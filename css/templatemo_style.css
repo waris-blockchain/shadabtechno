@@ -72,6 +72,21 @@ h1{width:100%; font-size:36px; color:#747474; text-align:center;}
 .templatemo_footerwrapper a:hover{color:#FC3;}
 .templatemo_social{width:125px; margin:0 auto; padding:0;}
 
+/*test css*/
+.logo-1, .logo-2 {
+    float: left;
+    width: 15%;
+    height: 150px;
+    margin: -128px 00px 0px 100px;
+    right: 100px;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+  }
+  .templatemo_titlewrappersmall{
+font-size: 17px !important;
+}
+
 /*------------------------------------------------------
 Flexslider Overrides 
 --------------------------------------------------------*/
@@ -116,7 +131,44 @@ Media Queries
 		color: #8080ff !important;
 		background-color:white !important; 
 	}
-	}
+
+.logo-1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    float: left;
+    height: 70px;
+    margin: -145px 0 27px 10px;
+    right: 100px;
+    width: 19%;
+}
+
+.logo-2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    float: right;
+    height: 70px;
+    margin: -145px -91px 0 0;
+    right: 100px;
+    width: 19%;
+}
+
+.templatemo_titlewrappersmall {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+.templatemo_hometitle {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    top: -79px;
+    font-weight: bold;
+}
+.templatemo_hometext{
+display: none;
+}
+}
 
 @media (max-width:991px){
 	.templatemo_homewrapper{display:none;}

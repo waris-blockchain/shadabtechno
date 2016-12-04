@@ -40,16 +40,6 @@
  /* color: #232323 !important;*/
 }
 
-.logo-1, .logo-2 {
-    float: left;
-    width: 15%;
-    height: 150px;
-    margin: -128px 00px 0px 100px;
-    right: 100px;
-    border: 2px solid rgba(255,255,255,0.5);
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
-  }
   .active-header{
     background-color: #8080ff  !important;
     border-color: #8080ff !important;
@@ -63,9 +53,7 @@
   margin-bottom: -52px !important;
 }
 
-.templatemo_titlewrappersmall{
-font-size: 17px !important;
-}
+
 
 .copyright
 {
@@ -133,7 +121,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
         <div class="templatemo_titlewrapper"><img src="images/templatemo_logobg.png" alt="logo background">
           <div class="templatemo_title">
                 <span>Shadaab Techno Engineering
-                    <span class="copyright">&reg;</span>
+                    <p class="copyright">&reg;</p>
                 </span>
           </div>
         </div>
