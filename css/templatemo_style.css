@@ -156,7 +156,8 @@ Media Queries
 
 .templatemo_titlewrappersmall {
     font-size: 16px !important;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-family: johnny fever !important;
 }
 .templatemo_hometitle {
     margin-bottom: 20px;

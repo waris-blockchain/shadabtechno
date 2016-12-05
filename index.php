@@ -276,7 +276,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </div>
     
     <div class="templatemo_workbox">
-      <div class="gallery-item"><img src="images/work/3.jpg" alt="work 3">
+      <div class="gallery-item"><img src="images/work/3.jpg" alt="work 2">
         <div class="overlay">
           <div class="templatemo_worktitle">Machine #2</div>
           <div class="templatemo_workdes"></div>
@@ -286,17 +286,17 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       </div>
     </div>
     <div class="templatemo_workbox">
-      <div class="gallery-item"><img src="images/work/4.jpg" alt="work 4">
+      <div class="gallery-item"><img src="images/work/10.jpg" alt="work 3">
         <div class="overlay">
           <div class="templatemo_worktitle">Machine #3</div>
           <div class="templatemo_workdes"></div>
-          <div class="templatemo_worklink"><a href="images/work/4.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="images/work/10.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
       </div>
     </div>
     <div class="templatemo_workbox">
-      <div class="gallery-item"><img src="images/work/5.jpg" alt="work 5">
+      <div class="gallery-item"><img src="images/work/5.jpg" alt="work 4">
         <div class="overlay">
           <div class="templatemo_worktitle">Machine #4</div>
           <div class="templatemo_workdes"></div>
@@ -306,11 +306,11 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       </div>
     </div>
     <div class="templatemo_workbox">
-      <div class="gallery-item"><img src="images/work/6.jpg" alt="work 6">
+      <div class="gallery-item"><img src="images/work/2.jpg" alt="work 5">
         <div class="overlay">
           <div class="templatemo_worktitle">Machine #5</div>
           <div class="templatemo_workdes"></div>
-          <div class="templatemo_worklink"><a href="images/work/6.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="images/work/2.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
       </div>
@@ -336,15 +336,55 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
       </div>
     </div>
  <div class="templatemo_workbox">
-      <div class="gallery-item"><img src="images/work/sdf.jpg" alt="work 8">
+      <div class="gallery-item"><img src="images/work/13.jpg" alt="work 9">
         <div class="overlay">
           <div class="templatemo_worktitle">Machine #8</div>
           <div class="templatemo_workdes"></div>
-          <div class="templatemo_worklink"><a href="images/work/sdf.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="images/work/13.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
           <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
         </div>
       </div>
     </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/work/11.jpg" alt="work 10">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Machine #9</div>
+          <div class="templatemo_workdes"></div>
+          <div class="templatemo_worklink"><a href="images/work/11.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/work/4.jpg" alt="work 11">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Machine #10</div>
+          <div class="templatemo_workdes"></div>
+          <div class="templatemo_worklink"><a href="images/work/4.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
+        </div>
+      </div>
+    </div>
+   <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/work/12.jpg" alt="work 13">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Machine #11</div>
+          <div class="templatemo_workdes"></div>
+          <div class="templatemo_worklink"><a href="images/work/12.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/work/9.jpg" alt="work 14">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Machine #12</div>
+          <div class="templatemo_workdes"></div>
+          <div class="templatemo_worklink"><a href="images/work/9.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+          <div class="templatemo_worklink"><a href="#" class="fa fa-link"></a></div>
+        </div>
+      </div>
+    </div> 
   </div>
 </div>
 
