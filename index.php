@@ -20,6 +20,10 @@
 .templatemo_topbar .navbar-nav {
     width: 700px !important;
 }  
+.feature{
+  text-align: center;
+  margin-bottom:40px;
+}
 
 .templatemo_title
 {
@@ -30,16 +34,10 @@
   width: 100%;
   margin:auto; 
 }
-.types{
-  width: 41%;
-}
-
 .gallery-item img{ height: 400px; }
-
 .templatemo_workmargin{
  /* color: #232323 !important;*/
 }
-
   .active-header{
     background-color: #8080ff  !important;
     border-color: #8080ff !important;
@@ -52,27 +50,6 @@
 .templatemo_footerwrapper{
   margin-bottom: -52px !important;
 }
-
-
-
-.copyright
-{
-    float: left;
-    margin-top: -9%;
-    margin-left: -1.7%;
-    z-index: 10000;
-    color: white;
-    position: relative;
-    font-size: 20px;
-}
-
-.templatemo_title .copyright
-{
-    float: none;
-    margin: -7% 0px 0px 49%;
-    font-family: sans-serif;
-}
-
 </style>
 <!-- JavaScripts -->
 
@@ -126,7 +103,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
           </div>
         </div>
         <div class="clear"></div>
-        <div class="templatemo_titlewrappersmall">Shadaab Techno Engineering</div>
+        <div class="templatemo_titlewrappersmall">Shadaab Techno Engineering<span class="copyright">&reg;</span></div>
         <nav class="navbar navbar-default templatemo_menu" role="navigation">
           <div class="container-fluid"> 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -647,6 +624,32 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
     </tbody>
 </table>
   </div>
+
+  <div class="row feature">
+        <a href = "#" class = "list-group-item active active-header">
+          <b>Salient Features</b>
+        </a>
+        <a href = "#" class = "list-group-item">Easy to maintain</a>
+        <a href = "#" class = "list-group-item">User friendly</a>
+        <a href = "#" class = "list-group-item">Good versatility</a>
+        <a href = "#" class = "list-group-item">Competitive Prices</a>
+        <a href = "#" class = "list-group-item">Low tooling cost</a>
+        <a href = "#" class = "list-group-item">Quick setting</a>
+        <a href = "#" class = "list-group-item">Stroke length can be adjustable</a>
+        <a href = "#" class = "list-group-item">Oil Seal Cup lubrication system</a>
+        <a href = "#" class = "list-group-item">Smooth Foot Pedal</a>
+        <a href = "#" class = "list-group-item">Reliable Mechanism</a>
+      </div>
+        <div class="row feature">
+            <div class="container">
+                    <a href = "#" class = "list-group-item active active-header">
+                      <b>Accessories</b>
+                    </a>
+                    <a href = "#" class = "list-group-item">Die Setting Spanner</a>
+                    <a href = "#" class = "list-group-item">Gear Guard Cover</a>
+                    <a href = "#" class = "list-group-item">Belt Drive</a>
+            </div>
+        </div>
 </div>
   <!-- </div> -->
 
