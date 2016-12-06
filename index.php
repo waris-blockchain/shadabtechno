@@ -716,7 +716,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/5.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div>
@@ -746,7 +746,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/6.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/4.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div>
@@ -756,7 +756,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/4.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/3old.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div>
@@ -766,7 +766,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/6.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div>
@@ -776,7 +776,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/7.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div> 
@@ -787,7 +787,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/8.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div> 
@@ -798,7 +798,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/9.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div> 
@@ -809,7 +809,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/10.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div> 
@@ -820,7 +820,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/11.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div> 
@@ -831,7 +831,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
-                    <a href="images/infra/1.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                    <a href="images/infra/12.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
                 </div>
               </div>
             </div> 
