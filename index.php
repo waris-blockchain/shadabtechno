@@ -715,7 +715,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             
             <!-- post #1 -->
             <div class="crsl-item"><img src="images/infra/1.jpg" alt="person 2">
-              <div class="templatemo_team_name">Main Entrance</div>
+              <div class="templatemo_team_name">Entry gate</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -735,7 +735,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
             </div>
      <!-- post #3 -->
             <div class="crsl-item"><img src="images/infra/3.jpg" alt="person 3">
-              <div class="templatemo_team_name">Work Place</div>
+              <div class="templatemo_team_name">Main entrance</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -808,7 +808,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 
              <!-- image 10 -->
                <div class="crsl-item"><img src="images/infra/10.jpg" alt="person 6">
-              <div class="templatemo_team_name">Machine</div>
+              <div class="templatemo_team_name">Working</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -819,7 +819,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 
              <!-- image 11 -->
                <div class="crsl-item"><img src="images/infra/11.jpg" alt="person 6">
-              <div class="templatemo_team_name">Exit</div>
+              <div class="templatemo_team_name">Working</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -830,7 +830,7 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
 
              <!-- image 12 -->
                <div class="crsl-item"><img src="images/infra/12.jpg" alt="person 6">
-              <div class="templatemo_team_name">Thanks for coming...</div>
+              <div class="templatemo_team_name">Working</div>
               <div class="templatemo_team_post"></div>
               <div class="overlay" style="margin-top: -55%;">
                 <div class="">
@@ -838,6 +838,87 @@ if(isset($_GET['status']) && !empty($_GET['status'])){
                 </div>
               </div>
             </div> 
+            <div class="crsl-item"><img src="images/infra/13.jpg" alt="person 6">
+              <div class="templatemo_team_name">Working</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/13.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <div class="crsl-item"><img src="images/infra/14.jpg" alt="person 6">
+              <div class="templatemo_team_name">Working</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/14.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>  
+            <div class="crsl-item"><img src="images/infra/15.jpg" alt="person 6">
+              <div class="templatemo_team_name">Inspection</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/15.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>  
+             <div class="crsl-item"><img src="images/infra/16.jpg" alt="person 6">
+              <div class="templatemo_team_name">Inspection</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/16.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <div class="crsl-item"><img src="images/infra/17.jpg" alt="person 6">
+              <div class="templatemo_team_name">Inspection</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/17.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <div class="crsl-item"><img src="images/infra/18.jpg" alt="person 6">
+              <div class="templatemo_team_name">Inspection</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/18.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <div class="crsl-item"><img src="images/infra/19.jpg" alt="person 6">
+              <div class="templatemo_team_name">Machine</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/19.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <div class="crsl-item"><img src="images/infra/20.jpg" alt="person 6">
+              <div class="templatemo_team_name">Exit</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/20.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
+            <div class="crsl-item"><img src="images/infra/21.jpg" alt="person 6">
+              <div class="templatemo_team_name">Thank you for coming...</div>
+              <div class="templatemo_team_post"></div>
+              <div class="overlay" style="margin-top: -55%;">
+                <div class="">
+                    <a href="images/infra/21.jpg" data-rel="lightbox" class="fa fa-2x fa-search-plus"></a>
+                </div>
+              </div>
+            </div>
 
           <!-- @end .crsl-wrap --> 
         </div>
